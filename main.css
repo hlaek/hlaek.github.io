@@ -1,0 +1,321 @@
+body {
+	background-color: #c1bcce;
+}
+
+.jumbotron {
+	background-image: url(images/tyler-gebhart-325119-unsplash.jpg);
+	background-size: cover;
+ 	position: relative;
+}
+
+.jumbo_text {
+	margin: 40px;
+	text-align: center;
+}
+
+.btn {
+
+	color: white;
+    border: 2px solid;
+    border-color: #2f2f3a;
+    background: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: helvetica neue;
+    font-weight: lighter;
+    border-radius: 1px;
+    margin-bottom: 40px;
+  
+}
+
+.btn:hover {
+	outline: none !important;
+	text-decoration: none;
+	color: white;
+	background: #2f2f3a;
+}
+
+
+.jumbotron .arrow {
+	font-size: 80px;
+	position: absolute;
+	bottom: -60px;
+	left: 50%;
+	transform: translateX(-50%);
+	
+}
+
+.font-weight-light {
+	color: white;
+	text-shadow: 1px 1px 1px #2f2f3a;
+}
+
+.large-text {
+	color: white;
+	font-size: 9em;
+	font-weight: lighter;
+	text-shadow: 1px 1px 1px #2f2f3a;
+}
+
+@media(max-width: 995px){
+	.large-text{
+		font-size: 6em;
+	}
+}
+
+@media(max-width: 678px){
+	.large-text{
+		font-size: 4em;
+	}
+
+}
+
+.caps {
+	font-size: larger;
+}
+
+.symbols {
+	font-size: 40px;
+}
+
+
+.panel {
+	padding: 10px;
+	border-radius: 1px;
+}
+
+#Skills {
+	background-color: #c1bcce;
+	background-size: cover;
+}
+
+/*section heading text*/
+h1 {
+	color: white;
+	font-family: helvetica neue;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 40px; 
+	text-shadow: 1px 1px 1px #2f2f3a;
+	font-weight: lighter; 
+
+
+}
+
+
+h3 {
+	color: #2f2f3a;
+	font-size: 24px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+.glyphicon {
+	color: #2f2f3a;
+}
+
+#photo img {
+    border-radius: 50%;
+    height: 400px;
+    box-shadow: 1px 1px 1px #2f2f3a;
+	margin-top: -40px; 
+
+}
+
+
+#bio {
+	color: white;
+	font-size: 14px;
+	text-align: left;
+	padding: 80px;
+	border-image: 2px solid black; 
+	border-radius: 90px;
+}
+
+
+#frontend_graph {
+	display: flex;
+	flex-direction: row;
+	height: 65px;
+}
+
+#Skills img {
+	height: 35px;
+	margin-top: 10px;
+}
+
+.htmlbox {
+	flex-grow: 4;
+	background-color: #6B8F71;
+	box-shadow: 3px 3px #2f2f3a;
+}
+.htmlbox:hover:after {
+	content: "HTML: I know it well!";
+	color: gray;
+	display: block; 
+}
+
+
+.cssbox {
+	flex-grow: 4;
+	background-color: #AAD2BA;
+	box-shadow: 3px 3px #2f2f3a;
+}
+.cssbox:hover:after {
+	content: "CSS: Got it down. How do you think I made these boxes grow?";
+	color: gray;
+	display: block; 
+}
+
+.jsbox {
+	flex-grow: 2;
+	background-color: #6B8F71;
+	box-shadow: 3px 3px #2f2f3a;
+}
+.jsbox:hover:after {
+	content: "I'm really diving into JS. I'm familiar with JQuery. I hope to be an expert soon.";
+	color: gray;
+	display: block; 
+}
+
+
+.bootstrapbox {
+	flex-grow: 1;
+	background-color: #D9FFF5;
+	box-shadow: 3px 3px #2f2f3a;
+}
+.bootstrapbox:hover:after {
+	content: " Solid Understanding.";
+	color: gray;
+	display: block; 
+}
+
+.otherbox {
+	flex-grow: 1;
+	background-color: #B9F5D8;
+	box-shadow: 3px 3px #2f2f3a;
+}
+.otherbox:hover:after {
+	content: "Currently learning Angular, React, SQL";
+	color: gray;
+	display: block; 
+}
+
+
+
+#backend_graph {
+	display: flex;
+	flex-direction: row;
+	height: 65px
+}
+
+.htmlbox:hover, .cssbox:hover, .jsbox:hover, .bootstrapbox:hover, .otherbox:hover, .oopbox:hover, .railsbox:hover, .rubybox:hover { 
+  background-color: white;
+  transform: scaleY(1.25);
+}
+
+.rubybox {
+	flex-grow: 4;
+	background-color: #D9FFF5;
+	box-shadow: 3px 3px #2f2f3a;
+}
+.rubybox:hover:after {
+	content: "My bootcamp was Ruby focused, but I realize how much I still have to learn. Teach me!";
+	color: gray;
+	display: block; 
+}
+
+.railsbox {
+	flex-grow: 4;
+	background-color: #AAD2BA;
+	box-shadow: 3px 3px #2f2f3a;
+}
+.railsbox:hover:after {
+	content: "Check out my eCommerce site on Github to see how I used Rails.";
+	color: gray;
+	display: block; 
+}
+
+
+.oopbox {
+	flex-grow: 1;
+	background-color: #6B8F71;
+	box-shadow: 3px 3px #2f2f3a;
+}
+.oopbox:hover:after {
+	content: "OOP. Next up: Java & Python";
+	color: gray;
+	display: block; 
+	align-content: center;
+}
+
+
+.gitbutton {
+	margin-top: 80px;
+	background-color: #2f2f3a;
+	height: 50px;
+	padding: 20px, 20px;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+.gitbutton:hover, .gitbutton:visited {
+	outline: none !important;
+	text-decoration: none !important; 
+	background: none;
+	color: white;
+
+}
+
+
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+li{
+	font-size: 16px;
+}
+
+
+.glyphicon-envelope{
+	font-size: 80px;
+	color: white;
+	margin-bottom: 30px;
+}
+
+#github img {
+	width: 80px;
+	margin-bottom: 30px;
+}
+
+#linkedin {
+	margin-bottom: 30px;
+}
+
+
+#AboutMe {
+	background-image: url(images/tyler-gebhart-325119-unsplash.jpg);
+	background-position: bottom;
+}
+
+#bio h2 {
+	margin-bottom: 60px;
+}
+
+#bio p {
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+
+#ContactMe {
+	margin-bottom: 20px;
+	max-height: 105vh;
+
+}
