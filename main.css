@@ -4,7 +4,7 @@ body {
 
 .jumbotron {
 	background-image: url(images/tyler-gebhart-325119-unsplash.jpg);
-	background-size: cover;
+  	background-size: cover;
  	position: relative;
 }
 
@@ -30,14 +30,14 @@ body {
   
 }
 
-.btn:hover {
+.btn:hover, .btn:visited, .btn:active, .btn:focus {
 	outline: none !important;
 	text-decoration: none;
 	color: white;
 	background: #2f2f3a;
 }
 
-
+.container .arrow,
 .jumbotron .arrow {
 	font-size: 80px;
 	position: absolute;
@@ -59,37 +59,8 @@ body {
 	text-shadow: 1px 1px 1px #2f2f3a;
 }
 
-@media(max-width: 995px){
-	.large-text{
-		font-size: 6em;
-	}
-		#frontend_graph {
-		height: 80px;
-	}
-		#backend_graph {
-		height: 80px;
-	}
-}
 
-@media(max-width: 678px){
-	.large-text{
-		font-size: 4em;
-	}
-	h1 {
-		font-size: 3em;
-		font-weight: bold; 
-	}
-	#bio {
-		font-size: 18px;
-	}
-	#frontend_graph {
-		height: 80px;
-	}
-	#backend_graph {
-		height: 80px;
-	}
 
-}
 
 .caps {
 	font-size: larger;
@@ -107,6 +78,7 @@ body {
 
 #Skills {
 	background-color: #c1bcce;
+	position: relative;
 }
 
 /*section heading text*/
@@ -160,6 +132,7 @@ h3 {
 	display: flex;
 	flex-direction: row;
 	height: 65px;
+	cursor: pointer;
 }
 
 #Skills img {
@@ -229,7 +202,8 @@ h3 {
 #backend_graph {
 	display: flex;
 	flex-direction: row;
-	height: 65px
+	height: 65px;
+	cursor: pointer;
 }
 
 .htmlbox:hover, .cssbox:hover, .jsbox:hover, .bootstrapbox:hover, .otherbox:hover, .oopbox:hover, .railsbox:hover, .rubybox:hover { 
@@ -283,7 +257,7 @@ h3 {
 
 }
 
-.gitbutton:hover, .gitbutton:visited {
+.gitbutton:hover, .gitbutton:focus {
 	outline: none !important;
 	text-decoration: none !important; 
 	background: none;
@@ -302,7 +276,7 @@ li{
 }
 
 
-.glyphicon-envelope{
+.glyphicon-envelope {
 	font-size: 80px;
 	color: white;
 	margin-bottom: 30px;
@@ -318,10 +292,27 @@ li{
 }
 
 
+@media (max-width: 578px) {
+	#frontend_graph, 
+	#backend_graph {
+		flex-direction: column;
+		height: 100%;
+	}
+
+	#frontend_graph div, 
+	#backend_graph div {
+		padding: 20px;
+	}
+
+}
+
+
 #AboutMe {
 	background-image: url(images/tyler-gebhart-325119-unsplash.jpg);
 	background-position: bottom;
+	
 }
+
 
 #bio h2 {
 	margin-bottom: 60px;
@@ -338,3 +329,82 @@ li{
 	max-height: 105vh;
 
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) {
+	.jumbotron, #Skills, #AboutMe{
+		height: 100vh;
+	}
+	.jumbotron .btn {
+		padding: 20px 30px; 
+		font-size: 8em;
+	}
+
+	.jumbo_text {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#frontend_graph, 
+	#backend_graph {
+		flex-direction: column;
+		height: 100%;
+	}
+
+	#frontend_graph div, 
+	#backend_graph div {
+		padding: 20px;
+	}
+
+	.skillsbuttons .btn {
+		padding: 40px 40px;
+		padding-bottom: 40px;
+		font-size: 30px;
+
+	}
+
+	h1 {
+		font-size: 5em;
+		margin-top: 30px;
+	}
+
+	h3 {
+		font-size: 4em;
+		margin-top: 50px;
+	}
+
+	#bio h2 {
+		font-size: 3em;
+	}
+	#bio p {
+		font-size: 3em;
+	}
+
+	.glyphicon-envelope{
+		font-size: 8em;
+		color: white;
+		margin-bottom: 30px;
+	}
+
+	#github img {
+		height: 8em;
+		width: 8em;
+	}
+
+	.container .arrow,
+	.jumbotron .arrow {
+		font-size: 10em;
+		bottom: -100px;
+	}
+
+	.font-weight-light{
+		font-size: 8em;
+	}
+
+
+
+ }
+

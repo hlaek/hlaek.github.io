@@ -28,13 +28,13 @@
    	</div>
    		
    		<nav class="navbar" data-spy="affix" data-offset-top="400">
-	 	 <a href="#Skills"><button class="btn">Skills</button></a>
-	   	 <a href="#AboutMe"><button class="btn">About Me</button></a>
-	     <a href="#ContactMe"><button class="btn">Contact Me</button></a>
+	 	 <a href="#Skills"><button id="skillsbtn" class="btn">Skills</button></a>
+	   	 <a href="#AboutMe"><button id="aboutmebtn" class="btn">About Me</button></a>
+	     <a href="#ContactMe"><button id="contactmebtn" class="btn ">Contact Me</button></a>
 	 	</nav>
 
  	<div class ="arrow">
- 	 <span class="glyphicon glyphicon-chevron-down"></span>
+ 	 <a href="#Skills"><span id="arrow1" class="glyphicon glyphicon-chevron-down"></span></a>
  	</div>
 
 
@@ -70,8 +70,11 @@
 	 	  	 			<a href="https://github.com/hlaek" target="_blank"><button class="btn gitbutton">Check out my GitHub</button></a>
 	 	  	 			<a href="HannahLaekResume.pdf" download target="_blank"><button class="btn gitbutton">Download my Resume</button></a>
 	 	  	 		</div>
+
 	 		</div> <!--end row-->
-	 	  
+	 	  <div class ="arrow">
+ 					 <a href="#AboutMe"><span id="arrow2" class="glyphicon glyphicon-chevron-down"></span></a>
+ 		  </div>
  	</div>
  </section>
 
@@ -81,7 +84,7 @@
  	  	<br>
  	  	<div class="row">
  	  		<div id="photo" class="col-md-4">
-	 	    	<img src="IMG_0841.jpg" alt="headshot">
+	 	    	<img src="images/IMG_0841.jpg" alt="headshot">
 	 	    </div>
 
 	 	  	<div id="bio" class="col-md-8">
@@ -105,7 +108,7 @@
  	  	<div class="row">
 	 	  	 <div class="col-md-4 text-center">
 	 	  	 	<div>
-	 	  	 		<a href="mailto:hnlaek@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
+	 	  	 		<a href="mailto:hnlaek@gmail.com?&subject=*Website Inquiry:"><span class="glyphicon glyphicon-envelope"></span></a>
 	 	  	 	</div>
 	 	  	 </div>
 	 	  	 <div class="col-md-4 text-center">
@@ -131,10 +134,76 @@
 
 </div> <!--container fluid close-->
 
-
  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
- 	 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
- 	 <script src="website.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ <!-- <script src="./website.js"></script> -->
+ <script type="text/javascript">
+	$('#arrow1').on('click', function(event) {
+		console.log('click')
+		 var target = $('#Skills');
+
+		if( target.length ) {
+		     event.preventDefault();
+		     $('html, body').stop().animate({
+		             scrollTop: target.offset().top
+		     }, 1000);
+		}
+
+	});
+
+	$('#arrow2').on('click', function(event) {
+		console.log('click')
+		 var target = $('#AboutMe');
+
+		if( target.length ) {
+		     event.preventDefault();
+		     $('html, body').stop().animate({
+		             scrollTop: target.offset().top
+		     }, 1000);
+		}
+
+	});
+
+	$('#skillsbtn').on('click', function(event) {
+		console.log('click')
+		 var target = $('#Skills');
+
+		if( target.length ) {
+		     event.preventDefault();
+		     $('html, body').stop().animate({
+		             scrollTop: target.offset().top
+		     }, 1000);
+		}
+
+	});
+
+	$('#aboutmebtn').on('click', function(event) {
+		console.log('click')
+	 	var target = $('#AboutMe');
+
+		if( target.length ) {
+		     event.preventDefault();
+		     $('html, body').stop().animate({
+		             scrollTop: target.offset().top
+		     }, 1000);
+		}
+
+	});
+
+	$('#contactmebtn').on('click', function(event) {
+		console.log('click')
+	 	var target = $('#ContactMe');
+
+		if( target.length ) {
+		     event.preventDefault();
+		     $('html, body').stop().animate({
+		             scrollTop: target.offset().top
+		     }, 1000);
+		}
+
+	});
+ </script>
+
 </body>
 
 </html>
