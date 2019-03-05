@@ -146,7 +146,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .htmlbox:hover:after {
-	content: "HTML: I know it well!";
+	content: "HTML! I know it well!";
 	color: gray;
 	display: block; 
 }
@@ -158,7 +158,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .cssbox:hover:after {
-	content: "CSS: Got it down. How do you think I made these boxes grow?";
+	content: "My front-end UX developer role has taught me so much.";
 	color: gray;
 	display: block; 
 }
@@ -169,7 +169,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .jsbox:hover:after {
-	content: "I'm really diving into JS. I'm familiar with JQuery. I hope to be an expert soon.";
+	content: "I dived into JS/JQuery as an eComm UX Developer at Ascena Retail Group.";
 	color: gray;
 	display: block; 
 }
@@ -181,7 +181,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .bootstrapbox:hover:after {
-	content: " Solid Understanding.";
+	content: "I can build with or without Bootstrap.";
 	color: gray;
 	display: block; 
 }
@@ -240,7 +240,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .oopbox:hover:after {
-	content: "OOP. Next up: Java & Python";
+	content: "Next up to learn: Java & Python";
 	color: gray;
 	display: block; 
 	align-content: center;
