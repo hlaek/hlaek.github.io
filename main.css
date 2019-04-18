@@ -13,9 +13,14 @@ body {
 	text-align: center;
 }
 
+.heading span {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: lowercase;
+}
+
 .btn {
 
-	color: white;
+    color: white;
     border: 2px solid;
     border-color: #2f2f3a;
     background: none;
@@ -27,6 +32,7 @@ body {
     font-weight: lighter;
     border-radius: 1px;
     margin-bottom: 40px;
+    width: 120px;
   
 }
 
@@ -58,6 +64,10 @@ body {
 	font-weight: lighter;
 	text-shadow: 1px 1px 1px #2f2f3a;
 }
+#titletext {
+	font-family: 'Merriweather', serif;
+    text-transform: lowercase;
+}
 
 
 
@@ -84,13 +94,14 @@ body {
 /*section heading text*/
 h1 {
 	color: white;
-	font-family: helvetica neue;
+	font-family: 'Merriweather', serif;
 	font-size: 4em;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-top: 40px; 
 	text-shadow: 1px 1px 1px #2f2f3a;
 	font-weight: lighter; 
+	text-transform: lowercase;
 
 
 }
