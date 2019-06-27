@@ -266,8 +266,6 @@ h3 {
     text-align: center;
     margin-bottom: 80px;
     width: fit-content;
-    width: -webkit-fill-available;
-
 }
 
 .gitbutton:hover, .gitbutton:focus {
