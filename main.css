@@ -341,22 +341,36 @@ li{
 
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : portrait) {
-	.jumbotron, #Skills, #AboutMe{
-		height: 100vh;
+@media only screen and (max-device-width : 812px) {}
+	.navbar {
+		border-radius: 4px;
+		display: inline-flex;
+		position: absolute;
+		text-align: center;
+		left: 3%;
+	}
+	body {
+		width: 150vw !important; 
+	}
+	.jumbotron, #Skills{
+		height: 100vh !important; 
+	}
+	#AboutMe, #ContactMe {
+		width: 150vw !important;
+	}
+	#ContactMe .row {
+		display: inline-flex;
 	}
 	.jumbotron .btn {
-		padding: 20px 30px; 
+		padding: 20px 30px;
 		font-size: 8em;
+		width: fit-content;
 	}
 
 	.jumbo_text {
 		font-size: 20px;
 		text-align: center;
+		margin-top: 100% !important;
 	}
 
 	#frontend_graph, 
@@ -368,14 +382,20 @@ and (orientation : portrait) {
 	#frontend_graph div, 
 	#backend_graph div {
 		padding: 20px;
+		height: 100px;
 	}
 
 	.skillsbuttons .btn {
 		padding: 40px 40px;
 		padding-bottom: 40px;
 		font-size: 30px;
-
+		height: 100px;
 	}
+	#AboutMe {
+		background-image: none;
+		background-color: #2f2f3a;
+		opacity: .7;
+		}
 
 	h1 {
 		font-size: 5em;
@@ -418,4 +438,3 @@ and (orientation : portrait) {
 
 
  }
-
