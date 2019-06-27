@@ -341,7 +341,7 @@ li{
 
 }
 
-@media only screen and (max-device-width : 812px) {}
+@media only screen and (max-device-width : 812px) {
 	.navbar {
 		border-radius: 4px;
 		display: inline-flex;
@@ -370,7 +370,7 @@ li{
 	.jumbo_text {
 		font-size: 20px;
 		text-align: center;
-		margin-top: 100% !important;
+		margin-top: 50% !important;
 	}
 
 	#frontend_graph, 
@@ -387,14 +387,18 @@ li{
 
 	.skillsbuttons .btn {
 		padding: 40px 40px;
-		padding-bottom: 40px;
-		font-size: 30px;
-		height: 100px;
+		font-size: 40px;
+		height: 150px;
+	}
+	.skillsbuttons {
+		font-weight: 900 !important;
+		position: absolute;
+		left: 16%;
 	}
 	#AboutMe {
 		background-image: none;
-		background-color: #2f2f3a;
-		opacity: .7;
+		background-color: #002f2f3a;
+	
 		}
 
 	h1 {
