@@ -259,12 +259,14 @@ h3 {
 
 
 .gitbutton {
-	margin-top: 80px;
-	background-color: #2f2f3a;
-	height: 50px;
-	padding: 20px, 20px;
-	text-align: center;
-	margin-bottom: 80px;
+    margin-top: 80px;
+    background-color: #2f2f3a;
+    height: 50px;
+    /* padding: 0 20px; */
+    text-align: center;
+    margin-bottom: 80px;
+    width: fit-content;
+    width: -webkit-fill-available;
 
 }
 
