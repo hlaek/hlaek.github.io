@@ -157,7 +157,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .htmlbox:hover:after {
-	content: "HTML! I know it well!";
+	content: "HTML";
 	color: gray;
 	display: block; 
 }
@@ -169,7 +169,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .cssbox:hover:after {
-	content: "My front-end UX developer role has taught me so much.";
+	content: "CSS";
 	color: gray;
 	display: block; 
 }
@@ -180,7 +180,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .jsbox:hover:after {
-	content: "I dove into JS/JQuery as an eComm UX Developer at Ascena Retail Group.";
+	content: "JS/JQuery";
 	color: gray;
 	display: block; 
 }
@@ -203,7 +203,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .otherbox:hover:after {
-	content: "Currently learning Angular, React, SQL";
+	content: "React";
 	color: gray;
 	display: block; 
 }
@@ -228,7 +228,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .rubybox:hover:after {
-	content: "My bootcamp was Ruby focused, but I realize how much I still have to learn. Teach me!";
+	content: "My bootcamp was Ruby focused, but I realize how much I still have to learn. At work I some experience in .NET, Python, & SQL";
 	color: gray;
 	display: block; 
 }
