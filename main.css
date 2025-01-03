@@ -180,7 +180,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .jsbox:hover:after {
-	content: "JS/JQuery";
+	content: "Javascript/Typescript";
 	color: gray;
 	display: block; 
 }
@@ -192,7 +192,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .bootstrapbox:hover:after {
-	content: "I can build with or without Bootstrap.";
+	content: "Tailwind, Bootstrap, SSCS, Modules";
 	color: gray;
 	display: block; 
 }
@@ -203,7 +203,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .otherbox:hover:after {
-	content: "React";
+	content: "React & Vue";
 	color: gray;
 	display: block; 
 }
@@ -228,7 +228,7 @@ h3 {
 	box-shadow: 3px 3px #2f2f3a;
 }
 .rubybox:hover:after {
-	content: "My bootcamp was Ruby focused, but I realize how much I still have to learn. At work I some experience in .NET, Python, & SQL";
+	content: "My bootcamp was Ruby focused. At work I have some experience in .NET, Node, & SQL";
 	color: gray;
 	display: block; 
 }
